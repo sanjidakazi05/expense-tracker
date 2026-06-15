@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9e7f8
+    }
+    form,
+    .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    }
+    input,
+    select,
+    button {
+    padding: 8px;
+    }
+    button {
+    cursor: pointer;
+    }
+    #error {
+    color: red;
+    }
+    .expense-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+    }
+    .empty-state {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+    }
+    .totals {
+    margin-bottom: 20px;
+    }
+    
+    
